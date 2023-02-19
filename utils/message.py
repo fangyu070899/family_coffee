@@ -1,3 +1,142 @@
+def get_new_event():
+  return {
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png", #圖片
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Brown Cafe",
+            "weight": "bold",
+            "size": "xl"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "商品詳情",
+              "text": "Brown Cafe 商品詳情"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "立即購買",
+              "uri": "https://famistore.famiport.com.tw/317733/index.php?action=fmall_12267038"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Brown Cafe",
+            "weight": "bold",
+            "size": "xl"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "商品詳情",
+              "text": "Brown Cafe 商品詳情"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "立即購買",
+              "uri": "https://famistore.famiport.com.tw/317733/index.php?action=fmall_12267038"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+        "size": "full",
+        "aspectRatio": "4:3",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "Brown Cafe",
+            "weight": "bold",
+            "size": "xl"
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "商品詳情",
+              "text": "Brown Cafe 商品詳情"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "立即購買",
+              "uri": "https://famistore.famiport.com.tw/317733/index.php?action=fmall_12267038"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+
 def get_coffee_roasting():
   return {
       "type": "bubble",
@@ -78,7 +217,7 @@ def get_coffee_flavor():
       "type": "bubble",
       "hero": {
         "type": "image",
-        "url": "https://i.imgur.com/tbUvFuL.png",
+        "url": "https://i.imgur.com/4pS9f3A.png",
         "size": "full",
         "aspectRatio": "20:13",
         "aspectMode": "cover",
@@ -153,7 +292,7 @@ def get_coffee_flavor():
       "type": "bubble",
       "hero": {
         "type": "image",
-        "url": "https://i.imgur.com/tbUvFuL.png",
+        "url": "https://i.imgur.com/cTUCYBi.png",
         "size": "full",
         "aspectRatio": "20:13",
         "aspectMode": "cover",
@@ -228,7 +367,7 @@ def get_coffee_flavor():
       "type": "bubble",
       "hero": {
         "type": "image",
-        "url": "https://i.imgur.com/tbUvFuL.png",
+        "url": "https://i.imgur.com/oiZTwrl.png",
         "size": "full",
         "aspectRatio": "20:13",
         "aspectMode": "cover",
@@ -303,7 +442,7 @@ def get_coffee_flavor():
       "type": "bubble",
       "hero": {
         "type": "image",
-        "url": "https://i.imgur.com/tbUvFuL.png",
+        "url": "https://i.imgur.com/G5oM5PV.png",
         "size": "full",
         "aspectRatio": "20:13",
         "aspectMode": "cover",
